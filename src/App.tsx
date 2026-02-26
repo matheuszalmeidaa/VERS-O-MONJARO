@@ -19,6 +19,7 @@ import {
   ShieldCheck,
   Users
 } from 'lucide-react';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import { Question, UserAnswers, QuizState } from './types';
 
 const QUESTIONS: Question[] = [
@@ -551,6 +552,7 @@ export default function App() {
           <a href="#" className="hover:text-slate-600">Privacidade</a>
         </div>
       </footer>
+      <SpeedInsights />
     </div>
   );
 }
